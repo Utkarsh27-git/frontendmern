@@ -29,6 +29,7 @@ export default class ExerciseList extends Component {
         axios.get(`${baseUrl}/exercises/`)
         .then(response => {
             this.setState({ exercises: response.data })
+            console.log(response.data)
         })
         .catch((error) => {
             console.log(error);
