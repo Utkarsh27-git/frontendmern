@@ -15,7 +15,8 @@
     "mongoose": "^7.0.4",
     "react": "^16.13.1",
     "react-datepicker": "^4.11.0",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^6.23.0"
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
