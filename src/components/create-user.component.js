@@ -58,7 +58,7 @@ export default class CreateUser extends Component {
                 </div>
 
 
-                <div className="form-group">
+                <div className="form-group" style={{ marginTop: '20px' }}>
                     <input type="submit" value="Create Users" className="btn btn-primary"/>
                 </div>
 

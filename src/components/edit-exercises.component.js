@@ -99,7 +99,7 @@ const EditExercise = () => {
                         />
                     </div>
                 </div>
-                <div className="form-group">
+                <div className="form-group"style={{ marginTop: '20px' }}>
                     <input type="submit" value="Edit Exercise Log" className="btn btn-primary" />
                 </div>
             </form>
