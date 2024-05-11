@@ -16,7 +16,7 @@ function App() {
 		<Navbar />
 		<br/>
 		<Routes>
-		<Route path="/"  element={<ExerciseList/>} />	  
+		<Route path="/" exact element={<ExerciseList/>} />	  
 		<Route path="/edit/:id" element={<EditExercise/>} />	  
 		<Route path="/create" element={<CreateExercise/>} />	  
 		<Route path="/user" element={<CreateUser/>} />

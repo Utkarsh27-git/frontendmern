@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { baseUrl } from '../Urls';
 
+
 const Exercise = props => (
     <tr>
         <td>{props.exercise.username}</td>
